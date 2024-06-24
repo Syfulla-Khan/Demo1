@@ -1,5 +1,3 @@
-# Basic Test Cases
-
 # Test Case 1
 assert is_palindrome("A man, a plan, a canal, Panama") == True, 'Test Case 1 Failed'
 
@@ -8,8 +6,6 @@ assert is_palindrome("racecar") == True, 'Test Case 2 Failed'
 
 # Test Case 3
 assert is_palindrome("hello") == False, 'Test Case 3 Failed'
-
-# Edge Test Cases
 
 # Test Case 4 - Empty string
 assert is_palindrome("") == True, 'Test Case 4 Failed'
