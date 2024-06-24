@@ -1,10 +1,9 @@
-# Basic Test Cases
+# Test Cases for Fibonacci function
 
-# Test Case 1
-assert is_palindrome("A man, a plan, a canal, Panama") == True, 'Test Case 1 Failed'
-
-# Test Case 2
-assert is_palindrome("racecar") == True, 'Test Case 2 Failed'
-
-# Test Case 3
-assert is_palindrome("hello") == False, 'Test Case 3 Failed'
+def test_Fibonacci():
+    assert Fibonacci(0) == 0
+    assert Fibonacci(1) == 1
+    assert Fibonacci(2) == 1
+    assert Fibonacci(3) == 2
+    assert Fibonacci(4) == 3
+    assert Fibonacci(5) == 5
