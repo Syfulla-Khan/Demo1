@@ -1,10 +1,9 @@
 # Basic Test Cases
-- Test case 1: Test for input 0
-- Test case 2: Test for input less than 0
-- Test case 3: Test for input 1
-- Test case 4: Test for input 2
-- Test case 5: Test for input greater than 2
+- Test case 1: Test Fibonacci function with input 0
+- Test case 2: Test Fibonacci function with input -1
+- Test case 3: Test Fibonacci function with input 1
 
 # Edge Test Cases
-- Test case 1: Test for negative input
-- Test case 2: Test for large input
+- Test case 1: Test Fibonacci function with large negative input
+- Test case 2: Test Fibonacci function with large positive input
+- Test case 3: Test Fibonacci function with input 2
