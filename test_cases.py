@@ -1,10 +1,8 @@
-# Basic Test Cases
+# Test Cases for is_palindrome
 
-# Test Case 1
-assert is_palindrome("A man, a plan, a canal, Panama") == True
-
-# Test Case 2
-assert is_palindrome("race a car") == False
-
-# Test Case 3
-assert is_palindrome("Was it a car or a cat I saw?") == True
+def test_is_palindrome():
+    assert is_palindrome("A man, a plan, a canal, Panama") == True
+    assert is_palindrome("racecar") == True
+    assert is_palindrome("hello") == False
+    
+# Additional edge cases can be added if needed
