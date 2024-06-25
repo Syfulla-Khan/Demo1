@@ -1,11 +1,8 @@
-# Basic Test Cases
-- Test case 1: Test for input 0
-- Test case 2: Test for negative input
-- Test case 3: Test for input 1
-- Test case 4: Test for input 2
-- Test case 5: Test for input greater than 2
+# Test Case 1
+assert is_palindrome("A man, a plan, a canal, Panama") == True, 'Test Case 1 Failed'
 
-# Edge Test Cases
-- Test case 1: Test for empty input
-- Test case 2: Test for large negative input
-- Test case 3: Test for large positive input
+# Test Case 2
+assert is_palindrome("racecar") == True, 'Test Case 2 Failed'
+
+# Test Case 3
+assert is_palindrome("hello") == False, 'Test Case 3 Failed'
